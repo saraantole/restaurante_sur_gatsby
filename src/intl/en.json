@@ -10,11 +10,12 @@
         "menu": "Menu",
         "about": "About",
         "gallery": "Gallery",
-        "reserva": "Book a table"
+        "reserva": "Book"
     },
     "IndexPage": {
         "hero": {
-            "headTitle": "Cooking with love",
+            "headTitle": "Cooking with",
+            "headSpan": "love",
             "sub": "- since 1994 -",
             "seeMenu": "See menu"
         },
@@ -25,11 +26,12 @@
             "3": "Our guests are the most important for us, that's why we are committed to provide an excellent service."
         },
         "reviews": {
-            "revTitle": "- What you say about us -"
+            "revTitle": "- What they say about us -"
         },
         "contact": {
             "contactTitle": "- How to find us -",
-            "greetings": "We look forward to seeing you"
+            "greetings": "We look forward to seeing you",
+            "cta": "Book a table"
         }
     },
     "MenuPage": {
@@ -51,5 +53,11 @@
     },
     "GalleryPage": {
         "gallery": "- Gallery -"
+    }
+    ,
+    "404Page": {
+        "404Title": "Oooops",
+        "p404": "Parece que acá no vas a encontrar nada para comer.",
+        "btn": "Vuelve a Restaurante Sur"
     }
 }
