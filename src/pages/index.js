@@ -1,22 +1,24 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import { BreakpointProvider } from 'react-socks'
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Hero from "../components/hero/hero";
+import Why from "../components/why/why";
+import Reviews from "../components/reviews/reviews";
+import Contact from "../components/contacto/contacto";
+import { injectIntl } from "gatsby-plugin-intl"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+const IndexPage = ({ intl }) => (
+  <BreakpointProvider>
+    <Layout>
+      <SEO lang={intl.locale}
+        title={intl.formatMessage({ id: "nav.home" })} />
+      <Hero />
+      <Why />
+      <Reviews />
+      <Contact />
+    </Layout>
+  </BreakpointProvider>
 )
 
-export default IndexPage
+export default injectIntl(IndexPage)

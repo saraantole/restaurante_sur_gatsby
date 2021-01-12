@@ -1,0 +1,47 @@
+.nosotros-container {
+   width: 100%;
+   background-color: var(--background);
+   padding: 40px 0;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.nosotros img {
+    width: 360px;
+    object-fit: contain;
+    padding-bottom: 20px;
+}
+
+.historia{
+    width: 40%;
+}
+
+.historia p {
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.historia svg {
+    color: var(--icon);
+    margin: 0 10px;
+}
+
+.historia svg:nth-child(1) {
+    margin-left: 0;
+}
+
+@media screen and (max-device-width: 800px) {
+    .historia {
+        width: 90%;
+    }
+
+    .nosotros-container {
+        padding-top: 80px;
+    }
+}

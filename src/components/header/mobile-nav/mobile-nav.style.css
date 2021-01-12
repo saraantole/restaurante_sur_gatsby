@@ -1,0 +1,20 @@
+.mobile-navbar {
+    background-color: var(--dark);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-mob-logo img {
+    width: 150px;
+}
+
+.mobile-nav {
+    display: flex;
+}
+

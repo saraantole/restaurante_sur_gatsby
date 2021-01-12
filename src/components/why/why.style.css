@@ -1,0 +1,52 @@
+h3 {
+    font-size: 32px;
+    margin-top: -50px;
+    margin-bottom: 70px;
+}
+
+.why {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.card {
+    width: 28%;
+    text-align: center;
+}
+
+.why-icon {
+    height: 120px;
+}
+
+.card:hover .why-icon{
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+.leaf {
+    font-size: 140px;
+}
+
+@media screen and (max-device-width: 700px) {
+    h3 {
+        font-size: 28px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    
+    .why {
+        justify-content: center;
+    }    
+
+    .card {
+        width: 70%;
+        padding-bottom: 40px;
+    }
+
+    .card:hover .why-icon{
+        transform: none;
+    }
+    
+}

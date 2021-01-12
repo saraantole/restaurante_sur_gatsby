@@ -1,0 +1,36 @@
+.four-o-four {
+    text-align: center;
+}
+
+.four-o-four h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.four-o-four img{
+    width: 200px;
+}
+
+.four-o-four p {
+    font-size: 28px;
+}
+
+.four-o-four button {
+    width: 300px;
+    background-color: var(--background);
+    color: var(--text);
+    margin-bottom: 40px;
+}
+
+.four-o-four button:hover {
+    transform: scale(1.01);
+    transition: 0.3s ease-in-out;
+    background-color: var(--icon);
+    cursor: pointer;
+}
+
+@media screen and (max-device-width: 800px) {
+    .four-o-four {
+        padding: 50px 0;
+    }
+}
