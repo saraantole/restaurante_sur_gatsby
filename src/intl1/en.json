@@ -1,0 +1,377 @@
+{
+    "title": "Restaurante Sur",
+    "description": "Steak House in Estepona, Spain",
+    "author": "Sara Antole",
+    "tel": "+34 952 79 28 76",
+    "time": "Every day: 1 to 6 PM",
+    "location": "Plaza Ortiz, 10 Estepona (Malaga)",
+    "nav": {
+        "home": "Home",
+        "menu": "Menu",
+        "about": "About",
+        "gallery": "Gallery",
+        "reserva": "Book a table"
+    },
+    "IndexPage": {
+        "hero": {
+            "headTitle": "Cooking with",
+            "headSpan": {
+                "1": "love",
+                "2": "joy",
+                "3": "care"
+            },
+            "sub": "- since 1994 -",
+            "seeMenu": "See menu"
+        },
+        "why": {
+            "whyTitle": "- Why choose us -",
+            "1": "Only High-Quality and Fresh Products.",
+            "2": "World's Finest Meat hung in our Dry Ager System Chillers",
+            "3": "Our guests are the most important for us, that's why we are committed to provide an excellent service."
+        },
+        "reviews": {
+            "revTitle": "- What they say about us -"
+        },
+        "contact": {
+            "contactTitle": "- How to find us -",
+            "greetings": "We look forward to seeing you",
+            "cta": "Book a table"
+        }
+    },
+    "MenuPage": {
+        "menuTitle": "- Our menu -",
+        "buttons": {
+            "all": "all",
+            "starters": "starters",
+            "grilledMeat": "grilled meat",
+            "sideDishes": "side dishes",
+            "sauces": "sauces",
+            "cuisine": "cuisine",
+            "fish": "fish",
+            "desserts": "desserts"
+        },
+        "dishes": {
+            "carpaccio": {
+                "name": "CARPACCIO DE TERNERA",
+                "desc": "Wafer thim beef and parmesan cheese with lemon and olive oil"
+            },
+            "ceviche": {
+                "name": "CEVICHE DE LENGUADO",
+                "desc": "Marinated sole ceviche in citrus sauce"
+            },
+            "ebt": {
+                "name": "ENSALADA DE BROTES TIERNOS",
+                "desc": "Fresh sprout salad: bacon, dates and walnuts"
+            },
+            "burrata": {
+                "name": "BURRATA WITH PESTO SAUCE AND DRY TOMATOES",
+                "desc": " "
+            },
+            "ei": {
+                "name": "ENSALADA ITALIANA",
+                "desc": "Rocket, parmesan and cherry tomatoes"
+            },
+            "estrella": {
+                "name": "ESTRELLA DEL SUR",
+                "desc": "Lettuce hearts, anchovies, light cream cheese, olives and egg"
+            },
+            "tropical": {
+                "name": "ENSALADA TROPICAL",
+                "desc": "Lettuce, avocado, palm hearts, orange, kiwi and prawns"
+            },
+            "tartar": {
+                "name": "TUNA TARTAR",
+                "desc": "with avocado and black sesame"
+            },
+            "startar": {
+                "name": "STEAK TARTAR",
+                "desc": " "
+            },
+            "empanada": {
+                "name": "EMPANADAS ARGENTINAS",
+                "desc": "Argentinian pasties (meat, chicken or spinach)"
+            },
+            "chorizo": {
+                "name": "GRILLED SPICY SAUSAGE",
+                "desc": " "
+            },
+            "morcilla": {
+                "name": "GRILLED BLACK PUDDING 'RONDA'",
+                "desc": " "
+            },
+            "panajo": {
+                "name": "GARLIC BREAD WITH PARMESAN CHEESE",
+                "desc": " "
+            },
+            "marira": {
+                "name": "MARIRA",
+                "desc": "Home made traditional Moroccan vegetable soup"
+            },
+            "sopa": {
+                "name": "VEGETABLE SOUP/CREAM",
+                "desc": " "
+            },
+            "berenjena": {
+                "name": "GRILLED AUBERGINES WITH TOMATO AND MOZZARELLA",
+                "desc": " "
+            },
+            "flan": {
+                "name": "SPINACH CUSTARD",
+                "desc": " "
+            },
+            "provoletta": {
+                "name": "PROVOLETTA ITALIANA",
+                "desc": "Provolone cheese topped with oregano"
+            },
+            "morcillab": {
+                "name": "BURGOS STYLE BLACK PUDDING",
+                "desc": " "
+            },
+            "gambas": {
+                "name": "PRAWNS 'PIL-PIL' ROGER",
+                "desc": " "
+            },
+            "langostinos": {
+                "name": "CHARCOAL GRILLED KING PRAWNS",
+                "desc": " "
+            },
+            "entrana": {
+                "name": "SKIRT OF BEEF",
+                "desc": " "
+            },
+            "mollejas": {
+                "name": "MOLLEJAS DE TERNERA",
+                "desc": "Sweetbreads"
+            },
+            "secreto": {
+                "name": "FLANK OR IBERIAN PORK 1ST QUALITY",
+                "desc": " "
+            },
+            "chivo": {
+                "name": "SUCKLING GOAT ROASTED AT LOW TEMPERATURE",
+                "desc": " "
+            },
+            "entrecot": {
+                "name": "ARGENTINEAN ENTRECOTE 0.66 LB",
+                "desc": " "
+            },
+            "bife": {
+                "name": "ARGENTINEAN RIBEYE STEAK 0.66 LB",
+                "desc": " "
+            },
+            "solomillo": {
+                "name": "ARGENTINEAN FILLET STEAK 0.66 LB",
+                "desc": " "
+            },
+            "pollo": {
+                "name": "BONED CHICKEN SPRINKLED WITH LEMON JUICE",
+                "desc": " "
+            },
+            "solcerdo": {
+                "name": "CHARCOAL GRILLED SIRLOIN OF PORK",
+                "desc": " "
+            },
+            "chuletas": {
+                "name": "LAMB CHOPS WITH YOGHURT AND MINT SAUCE",
+                "desc": " "
+            },
+            "parrillax2": {
+                "name": "MIXED GRILLED FOR 2 PEOPLE",
+                "desc": " "
+            },
+            "parrillavip": {
+                "name": "VIP GRILLED (ANGUS STEAK, ENTRECOTE, FILLET STEAK) FOR 3 PEOPLE",
+                "desc": " "
+            },
+            "hereford": {
+                "name": "BEEF RIBEYE 'HEREFORD' NEBRASKA (USA)",
+                "desc": " "
+            },
+            "blackangus": {
+                "name": "AMERICAN BLACK ANGUS CUBE ROLL",
+                "desc": " "
+            },
+            "lomo": {
+                "name": "BLACK ANGUS STEAK (SCOTLAND)",
+                "desc": " "
+            },
+            "retinto": {
+                "name": "RETINTO BIG CHOP D.O.C. ANDALUCÍA (100% NATURAL)",
+                "desc": " "
+            },
+            "simmental": {
+                "name": "SIMMENTAL PREMIUM BIG CHOP",
+                "desc": " "
+            },
+            "chuletonrubia": {
+                "name": "ARGENTINEAN RIBEYE STEAK",
+                "desc": " "
+            },
+            "tbonerubia": {
+                "name": "T-BONE BEEF",
+                "desc": " "
+            },
+            "tomahawk": {
+                "name": "BEEF CHOP STEAK TOMAHAWK",
+                "desc": " "
+            },
+            "fritas": {
+                "name": "FRENCH FRIES",
+                "desc": " "
+            },
+            "pure": {
+                "name": "MASHED POTATO",
+                "desc": " "
+            },
+            "asada": {
+                "name": "JACKET POTATO",
+                "desc": " "
+            },
+            "tomate": {
+                "name": "GRILLED TOMATO",
+                "desc": " "
+            },
+            "champinon": {
+                "name": "GRILLED MASHROOMS",
+                "desc": " "
+            },
+            "wok": {
+                "name": "STIR FRIED VEGETABLES",
+                "desc": " "
+            },
+            "4pimientas": {
+                "name": "MIXED PEPPER SAUCE",
+                "desc": " "
+            },
+            "roquefort": {
+                "name": "ROQUEFORT CHEESE SAUCE",
+                "desc": " "
+            },
+            "mostaza": {
+                "name": "WHOLE GRAIN MUSTARD SAUCE ",
+                "desc": " "
+            },
+            "setas": {
+                "name": "MIXED MUSHROOMS SAUCE",
+                "desc": " "
+            },
+            "cousverdura": {
+                "name": "COUS-COUS WITH VEGETABLES",
+                "desc": " "
+            },
+            "couscarne": {
+                "name": "BEEF OR CHICKEN COUS-COUS",
+                "desc": " "
+            },
+            "pollolimon": {
+                "name": "SLOW COOKED TENDER CHICKEN TOPPED WITH OLIVES AND LEMON MARMALADE SAUCE",
+                "desc": " "
+            },
+            "tagine": {
+                "name": "LAMB TAGINE",
+                "desc": " "
+            },
+            "pastela": {
+                "name": "PASTELA",
+                "desc": "Our chef's chicken or fish and almond filo pie with a hint of cinnamon"
+            },
+            "lasagna": {
+                "name": "MEAT LASAGNA WITH CHEESE AND BECHAMEL",
+                "desc": " "
+            },
+            "tortelloni": {
+                "name": "HOME MADE TORTELLONI WITH PORCINI SAUCE",
+                "desc": " "
+            },
+            "pastanegra": {
+                "name": "PASTA NEGRA",
+                "desc": "Spaghetti black pasta with prawns and salmon sauce"
+            },
+            "creps": {
+                "name": "SPINACH AND MUSHROOM CRÉPES AU GRATIN",
+                "desc": " "
+            },
+            "timbal": {
+                "name": "PRAWNS IN THAI GREEN CURRY SAUCE ON A BED OF BASMATI RICE",
+                "desc": " "
+            },
+            "medallones": {
+                "name": "MEDALLIONS OF PORK WITH DATES, ALMONDS AND PEDRO XIMÉNEZ REDUCTION",
+                "desc": " "
+            },
+            "taginepescado": {
+                "name": "FISH TAGINE",
+                "desc": " "
+            },
+            "salmon": {
+                "name": "CHARCOAL GRILLED SALMON WITH SAFFRON SAUCE",
+                "desc": " "
+            },
+            "lubina": {
+                "name": "BAKED SEA BASS WITH HONEY AND MUSTARD SAUCE",
+                "desc": " "
+            },
+            "rodaballo": {
+                "name": "CHARCOAL GRILLED TURBOT",
+                "desc": " "
+            },
+            "panqueque": {
+                "name": "PANCAKES WITH ARGENTINEAN CARAMEL FILLING",
+                "desc": " "
+            },
+            "torre": {
+                "name": "CRUNCH MERINGUE TOWER AND ICE-CREAM",
+                "desc": " "
+            },
+            "cassata": {
+                "name": "CASSATA BRASILERA",
+                "desc": "Home made caramel and chocolate slice topped with cream"
+            },
+            "mousse": {
+                "name": "PASSION FRUIT MOUSSE",
+                "desc": " "
+            },
+            "crema": {
+                "name": "LEMON CREAM WITH MERINGUE",
+                "desc": " "
+            },
+            "moussechoco": {
+                "name": "CHOCOLATE MOUSSE",
+                "desc": " "
+            },
+            "brownie": {
+                "name": "BROWNIE WITH VANILLA ICE-CREAM",
+                "desc": " "
+            },
+            "sorbete": {
+                "name": "LEMON ICE-CREAM WITH CHAMPAGNE",
+                "desc": " "
+            },
+            "calabaza": {
+                "name": "PUMPKIN IN SYRUP WITH MASCARPONE CHEESE AND WALNUTS ",
+                "desc": " "
+            },
+            "te": {
+                "name": "HOME BREWED MOROCCAN TEA AND SWEETMEATS",
+                "desc": " "
+            },
+            "helado": {
+                "name": "ICE-CREAM",
+                "desc": "Sticky toffee, vanilla or chocolate"
+            }
+        }
+    },
+    "AboutPage": {
+        "aboutTitle": "- About us -",
+        "story": " On 16th of July 1994, a project named as a tango began, with the aim of bringing our experience in the kitchen to anyone who would visit us. After this long journey full of learning, stopovers and tolls, we are grateful to each of our customers who, by sharing their anecdotes and stories, gave Sur the cosy atmosphere that defines it."
+    },
+    "GalleryPage": {
+        "gallery": "- Gallery -"
+    }
+    ,
+    "ErrorPage": {
+        "ErrorTitle": "Oooops",
+        "pError": "It looks like you won't find anything to eat here!",
+        "btn": "Back to Restaurante Sur"
+    }
+}

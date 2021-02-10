@@ -3,19 +3,26 @@ import { BreakpointProvider } from 'react-socks'
 import GalleryComponent from '../components/galeria/galeria.component'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { injectIntl } from "gatsby-plugin-intl"
+import { useIntl } from "gatsby-plugin-intl"
+import { motion, AnimatePresence } from "framer-motion"
 
-const Galeria = ({intl}) => {
+const Galeria = () => {
+  const intl = useIntl()
   return (
-    <BreakpointProvider>
-      <Layout>
-      <SEO lang={intl.locale}
-      title={intl.formatMessage({ id: "nav.gallery" })} />
-        <GalleryComponent/>
-      </Layout>
-    </BreakpointProvider>
+    <AnimatePresence>
+      <BreakpointProvider>
+        <Layout>
+          <SEO lang={intl.locale}
+            title={intl.formatMessage({ id: "nav.gallery" })} />
+          <motion.section initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+            <GalleryComponent />
+          </motion.section>
+        </Layout>
+      </BreakpointProvider>
+    </AnimatePresence>
   )
 }
 
-export default injectIntl(Galeria)
+export default Galeria
 

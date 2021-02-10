@@ -1,23 +1,30 @@
 .nosotros-container {
-   width: 100%;
-   background-color: var(--background);
-   padding: 40px 0;
+    width: 100%;
+    background-color: var(--background);
+    padding: 40px 0;
 }
 
 .nosotros {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
     padding-top: 30px;
 }
 
-.nosotros img {
-    width: 360px;
-    object-fit: contain;
-    padding-bottom: 20px;
+.nosotros-container h1 {
+    font-family: 'Julee', cursive;
+    font-size: 32px;
 }
 
-.historia{
+.nosotros img {
+    width: 340px;
+    height: 340px;
+    object-fit: contain;
+    box-shadow: 2px 10px 35px 1px rgba(0, 0, 0, 0.75);
+}
+
+.historia {
     width: 40%;
 }
 
@@ -25,6 +32,7 @@
     font-style: italic;
     letter-spacing: 2px;
     line-height: 40px;
+    margin: 0;
 }
 
 .historia svg {
@@ -43,5 +51,9 @@
 
     .nosotros-container {
         padding-top: 80px;
+    }
+
+    .nosotros img {
+        margin-bottom: 40px;
     }
 }

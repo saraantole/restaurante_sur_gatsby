@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    height: 650px;
 }
 
 .hero h1 {
@@ -12,19 +13,26 @@
     margin: 100px 0 0 0;
 }
 
+.hero span {
+    padding-left: 15px;
+    color: var(--icon);
+}
+
+
 .hero h2 {
     font-size: 24px;
     margin: 0;
+    font-family: 'Julee', cursive;
 }
 
 .hero-btn {
     margin: 20px;
 }
 
-button {
+.hero-btn button {
     padding: 15px 25px;
     margin: 10px;
-    width: 150px;
+    width: 200px;
 }
 
 .hero-btn .icon {
@@ -45,34 +53,67 @@ button {
 
 .carne {
     width: 480px;
-    transform: rotate(-25deg);
     object-fit: contain;
     position: relative;
     left: 380px;
     bottom: 100px;
-    z-index: -1;
+    opacity: 0.99;
+    filter: drop-shadow(5px 10px 5px rgb(0, 0, 0));
 }
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 600px) and (min-device-width: 366px) {
 
     .hero h1 {
         font-size: 36px;
-        margin: 150px 0 0 0;
+        margin: 120px 0 0 0;
     }
 
     .hero h2 {
         font-size: 20px;
     }
 
-    .hero-btn {
-        display: flex;
+    .hero span {
+        padding-left: 10px;
     }
+
+    .hero-btn {
+        display: block;
+        text-align: center;
+    }
+
 
     .carne {
         width: 340px;
         left: 100px;
         bottom: 10px;
-        transform: rotate(-20deg);
+    }
+
+}
+
+@media screen and (max-device-width: 365px) {
+    .hero h1 {
+        font-size: 36px;
+        margin: 120px 0 0 0;
+        text-align: center;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .hero span {
+        padding-left: 10px;
+    }
+
+    .carne {
+        width: 340px;
+        left: 100px;
+        bottom: 30px;
+    }
+
+    .hero-btn {
+        display: block;
+        text-align: center;
     }
 
 }

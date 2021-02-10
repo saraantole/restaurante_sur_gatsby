@@ -9,6 +9,7 @@
 
 .four-o-four img{
     width: 200px;
+    filter: drop-shadow(5px 10px 5px rgb(0, 0, 0));
 }
 
 .four-o-four p {

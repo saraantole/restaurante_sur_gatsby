@@ -1,41 +1,62 @@
 import React from 'react'
 import './reviews.style.css'
-import { FacebookProvider, EmbeddedPost } from 'react-facebook';
 import { FormattedMessage } from "gatsby-plugin-intl"
 
-const posts = [
-    "https://www.facebook.com/jeanette.gustavsson.7/posts/10156992293296207",
-    "https://www.facebook.com/illerup/posts/10156879888742915",
-    "https://www.facebook.com/inrijaag/posts/10215932977773511",
-    "https://www.facebook.com/antonio.perezdiaz.773/posts/2491562104303593",
-    "https://www.facebook.com/serafin.fernandez.7/posts/10215691961279155",
-    "https://www.facebook.com/Gadgeteer1066/posts/3331907416882120",
-    "https://www.facebook.com/axel.blondeel/posts/2793370004086520",
-    "https://www.facebook.com/joanna.oldfield/posts/10158232184074672",
-    "https://www.facebook.com/hilary.copeland.77/posts/10156650957417549",
-    "https://www.facebook.com/rcbull/posts/10157114411785281",
-    "https://www.facebook.com/permalink.php?story_fbid=2237656909818413&id=100007223776396",
-    "https://www.facebook.com/fatima.zohra.925/posts/10219358224924218",
-    "https://www.facebook.com/morgan.sandblad/posts/2780066095381860"
-]
+import a from '../../images/reviews/a.jpg'
+import b from '../../images/reviews/b.jpg'
+import c from '../../images/reviews/c.jpg'
+import d from '../../images/reviews/d.jpg'
+import e from '../../images/reviews/e.jpg'
+import f from '../../images/reviews/f.jpg'
+import g from '../../images/reviews/g.jpg'
+import h from '../../images/reviews/h.jpg'
+import i from '../../images/reviews/i.jpg'
+import l from '../../images/reviews/l.jpg'
+import m from '../../images/reviews/m.jpg'
+import n from '../../images/reviews/n.jpg'
+import o from '../../images/reviews/o.jpg'
+import p from '../../images/reviews/p.jpg'
+import q from '../../images/reviews/q.jpg'
+import r from '../../images/reviews/r.jpg'
+import s from '../../images/reviews/s.jpg'
+import t from '../../images/reviews/t.jpg'
+import u from '../../images/reviews/u.jpg'
+import v from '../../images/reviews/v.jpg'
+
+const Reviews = () => (
+  <div className='reviews-component'>
+    <div className='container'>
+      <h3><FormattedMessage id="IndexPage.reviews.revTitle" /></h3>
+      <div className='reviews'>
+        <img src={a} className='review' alt='review' />
+        <img src={b} className='review' alt='review' />
+        <img src={c} className='review' alt='review' />
+        <img src={d} className='review' alt='review' />
+        <img src={e} className='review' alt='review' />
+        <img src={f} className='review' alt='review' />
+        <img src={g} className='review' alt='review' />
+        <img src={h} className='review' alt='review' />
+        <img src={i} className='review' alt='review' />
+        <img src={l} className='review' alt='review' />
+        <img src={m} className='review' alt='review' />
+        <img src={n} className='review' alt='review' />
+        <img src={o} className='review' alt='review' />
+        <img src={p} className='review' alt='review' />
+        <img src={q} className='review' alt='review' />
+        <img src={r} className='review' alt='review' />
+        <img src={s} className='review' alt='review' />
+        <img src={t} className='review' alt='review' />
+        <img src={u} className='review' alt='review' />
+        <img src={v} className='review' alt='review' />
+      </div>
+    </div>
+  </div>
+)
 
 
-const Reviews = () => {
-    return (
-        <div className='reviews-component'>
-            <div className='container'>
-                <h3><FormattedMessage id="IndexPage.reviews.revTitle" /></h3>
-                <div className='reviews'>
-                    <FacebookProvider appId="732989580659837">
-                        {
-                            posts.map((post, id) => <EmbeddedPost key={id} href={post} />)
-                        }
-                    </FacebookProvider>
-                </div>
-            </div>
-        </div>
-    )
-}
+
+
+
 
 
 export default Reviews

@@ -1,0 +1,54 @@
+.topBtn {
+    position: fixed;
+    /* Fixed/sticky position */
+    right: 0;
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    /*z-index: 10;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    font-size: 45px;
+    /* Increase font size */
+    color: var(--text);
+}
+
+.topBtn:hover {
+    color: var(--icon);
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+.topBtn:active {
+    color: var(--icon);
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+.pulsate-fwd {
+    -webkit-animation: pulsate-fwd 1.7s ease-in-out infinite both;
+    animation: pulsate-fwd 1.7s ease-in-out infinite both;
+}
+
+@keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}

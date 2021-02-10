@@ -6,25 +6,25 @@ import HamburgerIcon from '../hamburger-icon/hamburger'
 import Dropdown from '../dropdown/dropdown'
 
 
-
-
 const MobileNavBar = () => {
     const [dropdownHidden, toggleDropdown] = useState(true);
 
     return (
 
-        <nav className='mobile-navbar'>
+        <div>
+            <nav className='mobile-navbar'>
 
-            <Link to="/" className="navbar-mob-logo container">
-                <img src={logo} alt='logo' />
-            </Link>
+                <Link to="/" className="navbar-mob-logo container">
+                    <img src={logo} alt='logo' />
+                </Link>
 
-            <HamburgerIcon toggleDropdown={toggleDropdown} dropdownHidden={dropdownHidden} />
+                <HamburgerIcon toggleDropdown={toggleDropdown} dropdownHidden={dropdownHidden} />
 
-            <Dropdown dropdownHidden={dropdownHidden} />
-            
-        </nav>
+                <Dropdown dropdownHidden={dropdownHidden} />
 
+            </nav>
+
+        </div>
     )
 }
 

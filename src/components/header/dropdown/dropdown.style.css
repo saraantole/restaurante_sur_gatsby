@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     transform: translateX(-100vw);
-    z-index: 21;
+    z-index: 21!important;
 }
 
 .items {
@@ -37,18 +37,23 @@
 .items li:nth-child(5) a {
     border: 2px solid var(--icon);
     border-radius: 30px;
-    padding: 12px 30px;
+    padding: 14px 40px;
     text-transform: uppercase;
 }
 
+.items li:last-child {
+   display: inline-block;
+   padding: 20px 80px;
+}
+
 .social {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
 }
 
 .social svg {
-    font-size: 28px;
+    font-size: 34px;
     padding: 0 10px;
 }
 

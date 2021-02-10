@@ -1,6 +1,6 @@
 .desktop-navbar {
     background-color: var(--dark);
-    height: 80px;
+    height: 95px;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -54,5 +54,5 @@
     position: fixed;
     top: 0;
     width: 100%;
-    transition: 0.4s;
+    transition: 0.5s;
 }

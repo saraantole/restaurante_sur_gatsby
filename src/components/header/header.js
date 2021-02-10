@@ -4,24 +4,28 @@ import "./header.style.css"
 import Topbar from '../header/topbar/topbar'
 import DesktopNavBar from './desktop-nav/desktop-nav'
 import MobileNavBar from './mobile-nav/mobile-nav'
-import { injectIntl } from "gatsby-plugin-intl"
 import { Breakpoint } from 'react-socks'
 
-const Header = ({intl}) => {
+
+const Header = ({ offset }) => {
+
   return (
-    <header >
+    <div>
+      <header >
 
-      <Breakpoint large up>
-        <Topbar />
-        <DesktopNavBar />
-      </Breakpoint>
+        <Breakpoint large up>
+          <Topbar />
+          <DesktopNavBar offset={offset} />
+        </Breakpoint>
 
-      <Breakpoint medium down>
-        <MobileNavBar />
-      </Breakpoint>
+        <Breakpoint medium down>
+          <MobileNavBar />
+        </Breakpoint>
 
-    </header>
+      </header>
+
+    </div>
   )
 }
 
-export default injectIntl(Header)
+export default Header

@@ -20,11 +20,17 @@
 
 .flag {
     width: 24px;
-    height: 24px;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .flag:hover {
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-device-width: 800px) {
+    .flag {
+        width: 30px;
+    }
 }

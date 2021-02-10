@@ -1,0 +1,376 @@
+{
+    "title": "Restaurante Sur",
+    "description": "Asador argentino en Estepona",
+    "author": "Sara Antole",
+    "tel": "+34 952 79 28 76",
+    "time": "Todos los días de 13 a 18",
+    "location": "Plaza Ortiz, 10 Estepona (Málaga)",
+    "nav": {
+        "home": "Home",
+        "menu": "Carta",
+        "about": "Nosotros",
+        "gallery": "Galería",
+        "reserva": "Reserva"
+    },
+    "IndexPage": {
+        "hero": {
+            "headTitle": "Cocinando con",
+            "headSpan": {
+                "1": "pasión",
+                "2": "alegría",
+                "3": "cariño"
+            },
+            "sub": "- desde 1994 -",
+            "seeMenu": "Ver carta"
+        },
+        "why": {
+            "whyTitle": "- Por qué elegirnos -",
+            "1": "Productos siempre frescos y de buena calidad.",
+            "2": "Carnes seleccionadas entre las mejores razas del mundo y maduradas en cámaras Dry Ager.",
+            "3": "Nuestros clientes son lo más importante, por eso apostamos por brindar un servicio excelente."
+        },
+        "reviews": {
+            "revTitle": "- Lo que dicen de nosotros -"
+        },
+        "contact": {
+            "contactTitle": "- Dónde encontrarnos -",
+            "greetings": "Restaurante Sur te espera",
+            "cta": "Reserva tu mesa"
+        }
+    },
+    "MenuPage": {
+        "menuTitle": "- Nuestra carta -",
+        "buttons": {
+            "all": "todo",
+            "starters": "entradas",
+            "grilledMeat": "parrilla",
+            "sideDishes": "guarniciones",
+            "sauces": "salsas",
+            "cuisine": "cocina",
+            "fish": "pescado",
+            "desserts": "postres"
+        },
+        "dishes": {
+            "carpaccio": {
+                "name": "CARPACCIO DE TERNERA",
+                "desc": "Finas lonchas de ternera con lajas de parmesano"
+            },
+            "ceviche": {
+                "name": "CEVICHE DE LENGUADO",
+                "desc": "Pescado marinado en aliño de cítricos"
+            },
+            "ebt": {
+                "name": "ENSALADA DE BROTES TIERNOS",
+                "desc": "Bacon, dátiles y nueces"
+            },
+            "burrata": {
+                "name": "BURRATA CON PESTO Y TOMATES SECOS",
+                "desc": " "
+            },
+            "ei": {
+                "name": "ENSALADA ITALIANA",
+                "desc": "Hojas de rúcula, parmesano y cherry"
+            },
+            "estrella": {
+                "name": "ESTRELLA DEL SUR",
+                "desc": "Cogollos de lechuga, anchoas, queso fresco, aceitunas y huevo duro"
+            },
+            "tropical": {
+                "name": "ENSALADA TROPICAL",
+                "desc": "Lechuga, aguacate, palmito, naranja, kiwi y langostinos"
+            },
+            "tartar": {
+                "name": "TARTAR DE ATÚN ROJO",
+                "desc": "con aguacate y sésamo negro"
+            },
+            "startar": {
+                "name": "STEAK TARTAR",
+                "desc": " "
+            },
+            "empanada": {
+                "name": "EMPANADAS ARGENTINAS",
+                "desc": "rellenas de carne, pollo o espinacas"
+            },
+            "chorizo": {
+                "name": "CHORIZO CRIOLLO PARRILLA",
+                "desc": " "
+            },
+            "morcilla": {
+                "name": "MORCILLA RONDEÑA PARRILLA",
+                "desc": " "
+            },
+            "panajo": {
+                "name": "PAN DE AJO CON PARMESANO",
+                "desc": " "
+            },
+            "marira": {
+                "name": "MARIRA",
+                "desc": "Sopa marroquí"
+            },
+            "sopa": {
+                "name": "SOPA CREMA DE VERDURA",
+                "desc": " "
+            },
+            "berenjena": {
+                "name": "BERENJENAS GRATINADAS",
+                "desc": " "
+            },
+            "flan": {
+                "name": "FLAN DE ESPINACAS",
+                "desc": " "
+            },
+            "provoletta": {
+                "name": "PROVOLETTA ITALIANA",
+                "desc": " "
+            },
+            "morcillab": {
+                "name": "MORCILLA DE BURGOS",
+                "desc": " "
+            },
+            "gambas": {
+                "name": "GAMBAS AL PIL-PIL",
+                "desc": " "
+            },
+            "langostinos": {
+                "name": "LANGOSTINOS A LA PARRILLA",
+                "desc": " "
+            },
+            "entrana": {
+                "name": "ENTRAÑA",
+                "desc": " "
+            },
+            "mollejas": {
+                "name": "MOLLEJAS DE TERNERA",
+                "desc": " "
+            },
+            "secreto": {
+                "name": "SECRETO IBÉRICO DE 1RA CALIDAD",
+                "desc": " "
+            },
+            "chivo": {
+                "name": "CHIVO LECHAL A BAJA TEMPERATURA",
+                "desc": " "
+            },
+            "entrecot": {
+                "name": "ENTRECOT DE LOMO BAJO ARGENTINO 300 GR.",
+                "desc": " "
+            },
+            "bife": {
+                "name": "BIFE ARGENTINO 300 GR.",
+                "desc": " "
+            },
+            "solomillo": {
+                "name": "SOLOMILLO ARGENTINO 300 GR.",
+                "desc": " "
+            },
+            "pollo": {
+                "name": "POLLO DESHUESADO AL LIMÓN",
+                "desc": " "
+            },
+            "solcerdo": {
+                "name": "SOLOMILLO DE CERDO A LA BRASA",
+                "desc": " "
+            },
+            "chuletas": {
+                "name": "CHULETAS DE CORDERO CON SALSA DE YOGUR Y MENTA",
+                "desc": " "
+            },
+            "parrillax2": {
+                "name": "PARRILLADA MIXTA 2 PERSONAS",
+                "desc": " "
+            },
+            "parrillavip": {
+                "name": "PARRILLADA VIP (LOMO ANGUS, ENTRECOT RUBIA GALLEGA, SOLOMILLO TERNERA)",
+                "desc": " "
+            },
+            "hereford": {
+                "name": "CHULETÓN VACA 'HEREFORD' NEBRASKA (USA)",
+                "desc": " "
+            },
+            "blackangus": {
+                "name": "AMERICAN BLACK ANGUS CUBE ROLL",
+                "desc": " "
+            },
+            "lomo": {
+                "name": "LOMO BAJO BLACK ANGUS (SCOTLAND)",
+                "desc": " "
+            },
+            "retinto": {
+                "name": "CHULETÓN RETINTO D.O.C. ANDALUCÍA (100% NATURAL)",
+                "desc": " "
+            },
+            "simmental": {
+                "name": "CHULETÓN VACA SIMMENTAL PREMIUM",
+                "desc": " "
+            },
+            "chuletonrubia": {
+                "name": "CHULETÓN DE TERNERA RUBIA GALLEGA",
+                "desc": " "
+            },
+            "tbonerubia": {
+                "name": "T-BONE TERNERA RUBIA GALLEGA",
+                "desc": " "
+            },
+            "tomahawk": {
+                "name": "TOMAHAWK",
+                "desc": " "
+            },
+            "fritas": {
+                "name": "PATATAS FRITAS",
+                "desc": " "
+            },
+            "pure": {
+                "name": "PURÉ DE PATATAS",
+                "desc": " "
+            },
+            "asada": {
+                "name": "PATATA ASADA",
+                "desc": " "
+            },
+            "tomate": {
+                "name": "TOMATE GRILLADO",
+                "desc": " "
+            },
+            "champinon": {
+                "name": "CHAMPIÑÓN GRILLADO",
+                "desc": " "
+            },
+            "wok": {
+                "name": "VERDURAS SALTEADAS AL WOK",
+                "desc": " "
+            },
+            "4pimientas": {
+                "name": "SALSA 4 PIMIENTAS",
+                "desc": " "
+            },
+            "roquefort": {
+                "name": "SALSA ROQUEFORT",
+                "desc": " "
+            },
+            "mostaza": {
+                "name": "MOSTAZA ANTIGUA",
+                "desc": " "
+            },
+            "setas": {
+                "name": "SALSA CHAMPIÑÓN Y SETAS",
+                "desc": " "
+            },
+            "cousverdura": {
+                "name": "COUS-COUS DE VERDURAS",
+                "desc": " "
+            },
+            "couscarne": {
+                "name": "COUS-COUS DE TERNERA O POLLO",
+                "desc": " "
+            },
+            "pollolimon": {
+                "name": "POLLO AL LIMÓN CONFITADO Y OLIVAS",
+                "desc": " "
+            },
+            "tagine": {
+                "name": "TAGINE DE CORDERO",
+                "desc": " "
+            },
+            "pastela": {
+                "name": "PASTELA",
+                "desc": "Pastel de masa filo con pollo o pescado y almendras con un toque de canela"
+            },
+            "lasagna": {
+                "name": "LASAGNA DE CARNE, QUESO Y BECHAMEL",
+                "desc": " "
+            },
+            "tortelloni": {
+                "name": "TORTELLONI DE VERDURA Y REQUESÓN CON SALSA PORCINI",
+                "desc": " "
+            },
+            "pastanegra": {
+                "name": "PASTA NEGRA",
+                "desc": "Espaguetti de tinta de sepia con salmón y gambas"
+            },
+            "creps": {
+                "name": "CREPS GRATINADOS DE ESPINACAS Y SETAS",
+                "desc": " "
+            },
+            "timbal": {
+                "name": "TIMBAL DE ARROZ BASMATI CON LANGOSTINOS AL CURRY VERDE THAI",
+                "desc": " "
+            },
+            "medallones": {
+                "name": "MEDALLONES DE SOLOMILLO DE CERDO CON DÁTILES, ALMENDRAS Y REDUCCIÓN DE PEDRO XIMÉNEZ",
+                "desc": " "
+            },
+            "taginepescado": {
+                "name": "TAGINE DE PESCADO",
+                "desc": " "
+            },
+            "salmon": {
+                "name": "SALMÓN A LA BRASA CON SALSA DE AZAFRÁN",
+                "desc": " "
+            },
+            "lubina": {
+                "name": "LUBINA AL HORNO CON SALSA DE MIEL Y MOSTAZA",
+                "desc": " "
+            },
+            "rodaballo": {
+                "name": "RODABALLO A LA BRASA",
+                "desc": " "
+            },
+            "panqueque": {
+                "name": "PANQUEQUES DE DULCE DE LECHE",
+                "desc": " "
+            },
+            "torre": {
+                "name": "TORRE CROCANTE DE MERENGUE Y HELADO",
+                "desc": " "
+            },
+            "cassata": {
+                "name": "CASSATA BRASILERA",
+                "desc": " "
+            },
+            "mousse": {
+                "name": "MOUSSE DE MARACUYÁ",
+                "desc": " "
+            },
+            "crema": {
+                "name": "CREMA DE LIMÓN CON MERENGUE",
+                "desc": " "
+            },
+            "moussechoco": {
+                "name": "MOUSSE DE CHOCOLATE",
+                "desc": " "
+            },
+            "brownie": {
+                "name": "BROWNIE CON HELADO DE VAINILLA",
+                "desc": " "
+            },
+            "sorbete": {
+                "name": "SORBETE DE LIMÓN Y CHAMPAGNE",
+                "desc": " "
+            },
+            "calabaza": {
+                "name": "CALABAZA EN ALMÍBAR CON MASCARPONE Y NUECES",
+                "desc": " "
+            },
+            "te": {
+                "name": "TÉ MORUNO CON DULCES MARROQUÍS",
+                "desc": " "
+            },
+            "helado": {
+                "name": "HELADOS (DULCE DE LECHE, VAINILLA Y CHOCOLATE)",
+                "desc": " "
+            }
+        }
+    },
+    "AboutPage": {
+        "aboutTitle": "- Nuestra historia -",
+        "story": "Un 16 de julio de 1994 comenzó este proyecto con nombre de tango, que nació con vocación de trasladar nuestra experiencia en los fogones a todo aquel que llegara a visitarnos. Después de este largo viaje lleno de aprendizaje, escalas y peajes, agradecemos a cada uno de nuestros clientes que, con sus anécdotas e historias compartidas, concedieron a Sur ese carácter de anfitrión acogedor que lo define."
+    },
+    "GalleryPage": {
+        "gallery": "- Galería -"
+    },
+    "ErrorPage": {
+        "ErrorTitle": "Oooops",
+        "pError": "Parece que acá no vas a encontrar nada para comer.",
+        "btn": "Vuelve a Restaurante Sur"
+    }
+}

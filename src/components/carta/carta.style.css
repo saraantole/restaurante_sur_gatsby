@@ -4,6 +4,11 @@
     padding: 40px 0;
 }
 
+.carta-container h1 {
+    font-family: 'Julee', cursive;
+    font-size: 32px;
+}
+
 .filter {
     display: flex;
     justify-content: center;

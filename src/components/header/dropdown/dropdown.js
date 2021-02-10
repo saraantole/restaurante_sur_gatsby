@@ -1,9 +1,9 @@
 import React from 'react'
-import UK from '../../../images/reino-unido.inline.svg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { FormattedMessage, Link } from "gatsby-plugin-intl"
+import LanguageSwitch from '../../language-switch/language-switch'
 
 import './dropdown.style.css'
 
@@ -27,7 +27,7 @@ const Dropdown = ({ dropdownHidden }) => {
                 <li><a href="tel:0034952792876">
                     <FormattedMessage id="nav.reserva" />
                 </a></li>
-                <li><Link to='/'><UK className='flag' /></Link></li>
+                <li><LanguageSwitch/></li>
             </ul>
 
             <div className="social">

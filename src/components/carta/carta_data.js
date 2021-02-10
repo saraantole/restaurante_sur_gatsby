@@ -1,466 +1,467 @@
-
+import React from 'react'
+import { FormattedMessage } from 'gatsby-plugin-intl'
 
 export const carta_data = [
     {
-        nombre: 'CARPACCIO DE TERNERA',
+        nombre: <FormattedMessage id='MenuPage.dishes.carpaccio.name' />,
         precio: '12,00 €',
-        descr: 'Finas lonchas de ternera con lajas de parmesano',
+        descr: <FormattedMessage id='MenuPage.dishes.carpaccio.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'CEVICHE DE LENGUADO',
+        nombre: <FormattedMessage id='MenuPage.dishes.ceviche.name' />,
         precio: '14,00 €',
-        descr: 'Pescado marinado en aliño de cítricos',
+        descr: <FormattedMessage id='MenuPage.dishes.ceviche.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'ENSALADA DE BROTES TIERNOS',
+        nombre: <FormattedMessage id='MenuPage.dishes.ebt.name' />,
         precio: '8,50 €',
-        descr: 'Bacon, dátiles y nueces',
+        descr: <FormattedMessage id='MenuPage.dishes.ebt.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'BURRATA CON PESTO Y TOMATES SECOS',
+        nombre: <FormattedMessage id='MenuPage.dishes.burrata.name' />,
         precio: '9,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.burrata.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'ENSALADA ITALIANA',
+        nombre: <FormattedMessage id='MenuPage.dishes.ei.name' />,
         precio: '8,50 €',
-        descr: 'Hojas de rúcula, parmesano y cherry',
+        descr: <FormattedMessage id='MenuPage.dishes.ei.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'ESTRELLA DEL SUR',
+        nombre: <FormattedMessage id='MenuPage.dishes.estrella.name' />,
         precio: '8,50 €',
-        descr: 'Cogollos de lechuga, anchoas, queso fresco, aceitunas y huevo duro',
+        descr: <FormattedMessage id='MenuPage.dishes.estrella.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'ENSALADA TROPICAL',
+        nombre: <FormattedMessage id='MenuPage.dishes.tropical.name' />,
         precio: '9,50 €',
-        descr: 'Lechuga, aguacate, palmito, naranja, kiwi y langostinos',
+        descr: <FormattedMessage id='MenuPage.dishes.tropical.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'TARTAR DE ATÚN ROJO',
+        nombre: <FormattedMessage id='MenuPage.dishes.tartar.name' />,
         precio: '16,00 €',
-        descr: 'con aguacate y sésamo negro',
+        descr: <FormattedMessage id='MenuPage.dishes.tartar.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'STEAK TARTAR',
+        nombre: <FormattedMessage id='MenuPage.dishes.startar.name' />,
         precio: '22,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.startar.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'EMPANADAS ARGENTINAS',
+        nombre: <FormattedMessage id='MenuPage.dishes.empanada.name' />,
         precio: '3,00 €',
-        descr: 'rellenas de carne, pollo o espinacas',
+        descr: <FormattedMessage id='MenuPage.dishes.empanada.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'CHORIZO CRIOLLO PARRILLA',
+        nombre: <FormattedMessage id='MenuPage.dishes.chorizo.name' />,
         precio: '3,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.chorizo.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'MORCILLA RONDEÑA PARRILLA',
+        nombre: <FormattedMessage id='MenuPage.dishes.morcilla.name' />,
         precio: '3,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.morcilla.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'PAN DE AJO CON PARMESANO',
+        nombre: <FormattedMessage id='MenuPage.dishes.panajo.name' />,
         precio: '2,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.panajo.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'MARIRA',
+        nombre: <FormattedMessage id='MenuPage.dishes.marira.name' />,
         precio: '7,00 €',
-        descr: 'Sopa marroquí',
+        descr: <FormattedMessage id='MenuPage.dishes.marira.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'SOPA CREMA DE VERDURA',
+        nombre: <FormattedMessage id='MenuPage.dishes.sopa.name' />,
         precio: '7,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.sopa.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'BERENJENAS GRATINADAS',
+        nombre: <FormattedMessage id='MenuPage.dishes.berenjena.name' />,
         precio: '8,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.berenjena.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'FLAN DE ESPINACAS',
+        nombre: <FormattedMessage id='MenuPage.dishes.flan.name' />,
         precio: '9,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.flan.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'PROVOLETTA ITALIANA',
+        nombre: <FormattedMessage id='MenuPage.dishes.provoletta.name' />,
         precio: '10,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.provoletta.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'MORCILLA DE BURGOS',
+        nombre: <FormattedMessage id='MenuPage.dishes.morcillab.name' />,
         precio: '6,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.morcillab.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'GAMBAS AL PIL-PIL',
+        nombre: <FormattedMessage id='MenuPage.dishes.gambas.name' />,
         precio: '11,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.gambas.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'LANGOSTINOS A LA PARRILLA',
+        nombre: <FormattedMessage id='MenuPage.dishes.langostinos.name' />,
         precio: '14,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.langostinos.desc' />,
         categoria: 'entradas'
     },
     {
-        nombre: 'ENTRAÑA',
+        nombre: <FormattedMessage id='MenuPage.dishes.entrana.name' />,
         precio: '13,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.entrana.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'MOLLEJAS DE TERNERA',
+        nombre: <FormattedMessage id='MenuPage.dishes.mollejas.name' />,
         precio: '14,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.mollejas.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'SECRETO IBÉRICO DE 1RA CALIDAD',
+        nombre: <FormattedMessage id='MenuPage.dishes.secreto.name' />,
         precio: '16,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.secreto.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'CHIVO LECHAL A BAJA TEMPERATURA',
+        nombre: <FormattedMessage id='MenuPage.dishes.chivo.name' />,
         precio: '25,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.chivo.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'ENTRECOT DE LOMO BAJO ARGENTINO 300 GR.',
+        nombre: <FormattedMessage id='MenuPage.dishes.entrecot.name' />,
         precio: '19,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.entrecot.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'BIFE ARGENTINO 300 GR.',
+        nombre: <FormattedMessage id='MenuPage.dishes.bife.name' />,
         precio: '22,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.bife.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'SOLOMILLO ARGENTINO 300 GR.',
+        nombre: <FormattedMessage id='MenuPage.dishes.solomillo.name' />,
         precio: '27,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.solomillo.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'POLLO DESHUESADO AL LIMÓN',
+        nombre: <FormattedMessage id='MenuPage.dishes.pollo.name' />,
         precio: '13,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.pollo.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'SOLOMILLO DE CERDO A LA BRASA',
+        nombre: <FormattedMessage id='MenuPage.dishes.solcerdo.name' />,
         precio: '14,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.solcerdo.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'CHULETAS DE CORDERO CON SALSA DE YOGUR Y MENTA',
+        nombre: <FormattedMessage id='MenuPage.dishes.chuletas.name' />,
         precio: '16,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.chuletas.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'PARILLADA MIXTA 2 PERSONAS',
+        nombre: <FormattedMessage id='MenuPage.dishes.parrillax2.name' />,
         precio: '29,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.parrillax2.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'PARILLADA VIP (LOMO ANGUS, ENTRECOT RUBIA GALLEGA, SOLOMILLO TERNERA)',
+        nombre: <FormattedMessage id='MenuPage.dishes.parrillavip.name' />,
         precio: '59,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.parrillavip.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'CHULETÓN VACA "HEREFORD" NEBRASKA (USA)',
+        nombre: <FormattedMessage id='MenuPage.dishes.hereford.name' />,
         precio: '34,00 € (600 GR.) / 53,00 € (1000 GR.)',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.hereford.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'AMERICAN BLACK ANGUS CUBE ROLL',
+        nombre: <FormattedMessage id='MenuPage.dishes.blackangus.name' />,
         precio: '36,00 € (600 GR.) / 58,00 € (1000 GR.)',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.blackangus.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'LOMO BAJO BLACK ANGUS (SCOTLAND)',
+        nombre: <FormattedMessage id='MenuPage.dishes.lomo.name' />,
         precio: '34,00 € (600 GR.) / 53,00 € (1000 GR.)',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.lomo.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'CHULETÓN RETINTO D.O.C. ANDALUCÍA (100% NATURAL)',
+        nombre: <FormattedMessage id='MenuPage.dishes.retinto.name' />,
         precio: '34,00 € (600 GR.) / 53,00 € (1000 GR.)',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.retinto.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'CHULETÓN VACA SIMMENTAL PREMIUM',
+        nombre: <FormattedMessage id='MenuPage.dishes.simmental.name' />,
         precio: '36,00 € (600 GR.) / 58,00 € (1000 GR.)',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.simmental.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'CHULETÓN DE TERNERA RUBIA GALLEGA',
+        nombre: <FormattedMessage id='MenuPage.dishes.chuletonrubia.name' />,
         precio: '48,00 € (1000 GR.)',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.chuletonrubia.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'T-BONE TERNERA RUBIA GALLEGA',
+        nombre: <FormattedMessage id='MenuPage.dishes.tbonerubia.name' />,
         precio: '48,00 € (1000 GR.)',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.tbonerubia.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'TOMAHAWK',
+        nombre: <FormattedMessage id='MenuPage.dishes.tomahawk.name' />,
         precio: '46,00 € (1000 GR.)',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.tomahawk.desc' />,
         categoria: 'parrilla'
     },
     {
-        nombre: 'PATATAS FRITAS',
+        nombre: <FormattedMessage id='MenuPage.dishes.fritas.name' />,
         precio: '3,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.fritas.desc' />,
         categoria: 'guarniciones'
     },
     {
-        nombre: 'PURÉ DE PATATAS',
+        nombre: <FormattedMessage id='MenuPage.dishes.pure.name' />,
         precio: '3,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.pure.desc' />,
         categoria: 'guarniciones'
     },
     {
-        nombre: 'PATATA ASADA',
+        nombre: <FormattedMessage id='MenuPage.dishes.asada.name' />,
         precio: '3,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.asada.desc' />,
         categoria: 'guarniciones'
     },
     {
-        nombre: 'TOMATE GRILLADO',
+        nombre: <FormattedMessage id='MenuPage.dishes.tomate.name' />,
         precio: '3,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.tomate.desc' />,
         categoria: 'guarniciones'
     },
     {
-        nombre: 'CHAMPIÑÓN GRILLADO',
+        nombre: <FormattedMessage id='MenuPage.dishes.champinon.name' />,
         precio: '3,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.champinon.desc' />,
         categoria: 'guarniciones'
     },
     {
-        nombre: 'VERDURAS SALTEADAS AL WOK',
+        nombre: <FormattedMessage id='MenuPage.dishes.wok.name' />,
         precio: '3,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.wok.desc' />,
         categoria: 'guarniciones'
     },
     {
-        nombre: 'SALSA 4 PIMIENTAS',
+        nombre: <FormattedMessage id='MenuPage.dishes.4pimientas.name' />,
         precio: '3,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.4pimientas.desc' />,
         categoria: 'salsas'
     },
     {
-        nombre: 'SALSA ROQUEFORT',
+        nombre: <FormattedMessage id='MenuPage.dishes.roquefort.name' />,
         precio: '3,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.roquefort.desc' />,
         categoria: 'salsas'
     },
     {
-        nombre: 'MOSTAZA ANTIGUA',
+        nombre: <FormattedMessage id='MenuPage.dishes.mostaza.name' />,
         precio: '3,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.mostaza.name' />,
         categoria: 'salsas'
     },
     {
-        nombre: 'SALSA CHAMPIÑÓN Y SETAS',
+        nombre: <FormattedMessage id='MenuPage.dishes.setas.name' />,
         precio: '3,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.setas.desc' />,
         categoria: 'salsas'
     },
     {
-        nombre: 'COUS-COUS DE VERDURAS',
+        nombre: <FormattedMessage id='MenuPage.dishes.cousverdura.name' />,
         precio: '14,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.cousverdura.desc' />,
         categoria: 'cocina'
     },
     {
-        nombre: 'COUS-COUS DE TERNERA O POLLO',
+        nombre: <FormattedMessage id='MenuPage.dishes.couscarne.name' />,
         precio: '16,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.couscarne.desc' />,
         categoria: 'cocina'
     },
     {
-        nombre: 'POLLO AL LIMÓN CONFITADO Y OLIVAS',
+        nombre: <FormattedMessage id='MenuPage.dishes.pollolimon.name' />,
         precio: '15,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.pollolimon.desc' />,
         categoria: 'cocina'
     },
     {
-        nombre: 'TAGINE DE CORDERO',
+        nombre: <FormattedMessage id='MenuPage.dishes.tagine.name' />,
         precio: '15,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.tagine.desc' />,
         categoria: 'cocina'
     },
     {
-        nombre: 'PASTELA',
+        nombre: <FormattedMessage id='MenuPage.dishes.pastela.name' />,
         precio: '15,00 €',
-        descr: 'Pastel de masa filo con pollo o pescado y almendras con un toque de canela',
+        descr: <FormattedMessage id='MenuPage.dishes.pastela.desc' />,
         categoria: 'cocina'
     },
     {
-        nombre: 'LASAGNA DE CARNE, QUESO Y BECHAMEL',
+        nombre: <FormattedMessage id='MenuPage.dishes.lasagna.name' />,
         precio: '13,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.lasagna.desc' />,
         categoria: 'cocina'
     },
     {
-        nombre: 'TORTELLONI DE VERDURA Y REQUESÓN CON SALSA PORCINI',
+        nombre: <FormattedMessage id='MenuPage.dishes.tortelloni.name' />,
         precio: '13,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.tortelloni.desc' />,
         categoria: 'cocina'
     },
     {
-        nombre: 'PASTA NEGRA',
+        nombre: <FormattedMessage id='MenuPage.dishes.pastanegra.name' />,
         precio: '14,00 €',
-        descr: 'Espaguetti de tinta de sepia con salmón y gambas',
+        descr: <FormattedMessage id='MenuPage.dishes.pastanegra.desc' />,
         categoria: 'cocina'
     },
     {
-        nombre: 'CREPS GRATINADOS DE ESPINACAS Y SETAS',
+        nombre: <FormattedMessage id='MenuPage.dishes.creps.name' />,
         precio: '14,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.creps.desc' />,
         categoria: 'cocina'
     },
     {
-        nombre: 'TIMBAL DE ARROZ BASMATI CON LANGOSTINOS AL CURRY VERDE THAI',
+        nombre: <FormattedMessage id='MenuPage.dishes.timbal.name' />,
         precio: '16,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.timbal.desc' />,
         categoria: 'cocina'
     },
     {
-        nombre: 'MEDALLONES DE SOLOMILLO DE CERDO CON DÁTILES, ALMENDRAS Y REDUCCIÓN DE PEDRO XIMÉNEZ',
+        nombre: <FormattedMessage id='MenuPage.dishes.medallones.name' />,
         precio: '16,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.medallones.desc' />,
         categoria: 'cocina'
     },
     {
-        nombre: 'TAGINE DE PESCADO',
+        nombre: <FormattedMessage id='MenuPage.dishes.taginepescado.name' />,
         precio: '16,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.taginepescado.desc' />,
         categoria: 'pescado'
     },
     {
-        nombre: 'SALMÓN A LA BRASA CON SALSA DE AZAFRÁN',
+        nombre: <FormattedMessage id='MenuPage.dishes.salmon.name' />,
         precio: '18,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.salmon.desc' />,
         categoria: 'pescado'
     },
     {
-        nombre: 'LUBINA AL HORNO CON SALSA DE MIEL Y MOSTAZA',
+        nombre: <FormattedMessage id='MenuPage.dishes.lubina.name' />,
         precio: '18,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.lubina.desc' />,
         categoria: 'pescado'
     },
     {
-        nombre: 'RODABALLO A LA BRASA',
+        nombre: <FormattedMessage id='MenuPage.dishes.rodaballo.name' />,
         precio: '21,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.rodaballo.desc' />,
         categoria: 'pescado'
     },
     {
-        nombre: 'PANQUEQUES DE DULCE DE LECHE',
+        nombre: <FormattedMessage id='MenuPage.dishes.panqueque.name' />,
         precio: '6,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.panqueque.desc' />,
         categoria: 'postres'
     },
     {
-        nombre: 'TORRE CROCANTE DE MERENGUE Y HELADO',
+        nombre: <FormattedMessage id='MenuPage.dishes.torre.name' />,
         precio: '6,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.torre.desc' />,
         categoria: 'postres'
     },
     {
-        nombre: 'CASATA BRASILERA',
+        nombre: <FormattedMessage id='MenuPage.dishes.cassata.name' />,
         precio: '6,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.cassata.desc' />,
         categoria: 'postres'
     },
     {
-        nombre: 'MOUSSE DE MARACUYÁ',
+        nombre: <FormattedMessage id='MenuPage.dishes.mousse.name' />,
         precio: '6,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.mousse.desc' />,
         categoria: 'postres'
     },
     {
-        nombre: 'CREMA DE LIMÓN CON MERENGUE',
+        nombre: <FormattedMessage id='MenuPage.dishes.crema.name' />,
         precio: '6,00 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.crema.desc' />,
         categoria: 'postres'
     },
     {
-        nombre: 'MOUSSE DE CHOCOLATE',
+        nombre: <FormattedMessage id='MenuPage.dishes.moussechoco.name' />,
         precio: '5,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.moussechoco.desc' />,
         categoria: 'postres'
     },
     {
-        nombre: 'BROWNIE CON HELADO DE VAINILLA',
+        nombre: <FormattedMessage id='MenuPage.dishes.brownie.name' />,
         precio: '6,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.brownie.desc' />,
         categoria: 'postres'
     },
     {
-        nombre: 'SORBETE DE LIMÓN Y CHAMPAGNE',
+        nombre: <FormattedMessage id='MenuPage.dishes.sorbete.name' />,
         precio: '5,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.sorbete.desc' />,
         categoria: 'postres'
     },
     {
-        nombre: 'CALABAZA EN ALMÍBAR CON MASCARPONE Y NUECES',
+        nombre: <FormattedMessage id='MenuPage.dishes.calabaza.name' />,
         precio: '6,50 €',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.calabaza.desc' />,
         categoria: 'postres'
     },
     {
-        nombre: 'TÉ MORUNO CON DULCES MARROQUÍS',
+        nombre: <FormattedMessage id='MenuPage.dishes.te.name' />,
         precio: '3,00 € (1 PERS.) / 5,00 € (2 PERS.)',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.te.desc' />,
         categoria: 'postres'
     },
     {
-        nombre: 'HELADOS (DULCE DE LECHE, VAINILLA Y CHOCOLATE)',
+        nombre: <FormattedMessage id='MenuPage.dishes.helado.name' />,
         precio: '1,50 € (1 UNID.)',
-        descr: '',
+        descr: <FormattedMessage id='MenuPage.dishes.helado.desc' />,
         categoria: 'postres'
     }
 ]

@@ -2,13 +2,14 @@ h3 {
     font-size: 32px;
     margin-top: -50px;
     margin-bottom: 70px;
+    font-family: 'Julee', cursive;
 }
 
 .why {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 50px;
+    padding-top: 40px;
 }
 
 .card {
@@ -20,7 +21,7 @@ h3 {
     height: 120px;
 }
 
-.card:hover .why-icon{
+.card:hover .why-icon {
     transform: scale(1.1);
     transition: 0.3s ease-in;
 }
@@ -29,24 +30,46 @@ h3 {
     font-size: 140px;
 }
 
-@media screen and (max-device-width: 700px) {
+@media screen and (max-device-width: 700px) and (min-device-width: 365px) {
     h3 {
-        font-size: 28px;
+        font-size: 26px;
         margin-top: 80px;
         text-align: center;
     }
-    
+
     .why {
         justify-content: center;
-    }    
+    }
 
     .card {
         width: 70%;
         padding-bottom: 40px;
     }
 
-    .card:hover .why-icon{
+    .card:hover .why-icon {
         transform: none;
     }
-    
+
+}
+
+@media screen and (max-device-width: 365px) {
+    h3 {
+        font-size: 24px;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .why {
+        justify-content: center;
+    }
+
+    .card {
+        width: 70%;
+        padding-bottom: 40px;
+    }
+
+    .card:hover .why-icon {
+        transform: none;
+    }
+
 }

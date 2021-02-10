@@ -5,21 +5,26 @@ import './404.style.css'
 import plato from '../images/plato.jpg'
 import { BreakpointProvider } from 'react-socks'
 import { FormattedMessage, Link, injectIntl } from "gatsby-plugin-intl"
-
+import { motion, AnimatePresence } from "framer-motion"
 
 const NotFoundPage = ({ intl }) => (
+  <AnimatePresence>
   <BreakpointProvider>
     <Layout>
       <SEO lang={intl.locale}
-        title={intl.formatMessage({ id: "404Page.404Title" })} />
-      <div className='four-o-four container'>
-        <h1><FormattedMessage id="404Page.404Title" /></h1>
-        <img src={plato} alt='404' />
-        <p><FormattedMessage id="404Page.p404" /></p>
-        <Link to='/'><button><FormattedMessage id="404Page.btn" /></button></Link>
-      </div>
+        title={intl.formatMessage({ id: "ErrorPage.ErrorTitle" })} />
+      <motion.section initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+        <div className='four-o-four container'>
+          <h1><FormattedMessage id="ErrorPage.ErrorTitle" /></h1>
+          <img src={plato} alt='Error' />
+          <p><FormattedMessage id="ErrorPage.pError" /></p>
+          <Link to='/'><button aria-label='Return'><FormattedMessage id="ErrorPage.btn" /></button></Link>
+        </div>
+      </motion.section>
     </Layout>
   </BreakpointProvider>
+  </AnimatePresence>
 )
 
 export default injectIntl(NotFoundPage)

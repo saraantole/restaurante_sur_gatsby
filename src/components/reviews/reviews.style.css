@@ -14,16 +14,17 @@ h3 {
     display: flex;
     overflow-x: scroll;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     z-index: 0;
 }
 
-.reviews>div {
+.review {
     margin-right: 20px;
-    width: 360px;
+    width: 350px;
 }
 
-.reviews>div:hover {
+
+.review:hover {
     transform: scale(1.02);
     transition: 0.3s ease-in-out;
 }
@@ -64,5 +65,13 @@ h3 {
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
         background: transparent;
+    }
+
+    .reviews-component {
+        height: auto;
+    }
+
+    .reviews {
+        padding-bottom: 30px;
     }
 }
