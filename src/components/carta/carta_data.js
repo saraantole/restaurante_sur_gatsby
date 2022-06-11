@@ -4,55 +4,55 @@ import { FormattedMessage } from 'gatsby-plugin-intl'
 export const carta_data = [
     {
         nombre: <FormattedMessage id='MenuPage.dishes.carpaccio.name' />,
-        precio: '12,00 €',
+        precio: '14,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.carpaccio.desc' />,
         categoria: 'entradas'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.ceviche.name' />,
-        precio: '14,00 €',
+        precio: '16,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.ceviche.desc' />,
         categoria: 'entradas'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.ebt.name' />,
-        precio: '8,50 €',
+        precio: '9,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.ebt.desc' />,
         categoria: 'entradas'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.burrata.name' />,
-        precio: '9,50 €',
+        precio: '10,50 €',
         descr: <FormattedMessage id='MenuPage.dishes.burrata.desc' />,
         categoria: 'entradas'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.ei.name' />,
-        precio: '8,50 €',
+        precio: '9,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.ei.desc' />,
         categoria: 'entradas'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.estrella.name' />,
-        precio: '8,50 €',
+        precio: '9,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.estrella.desc' />,
         categoria: 'entradas'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.tropical.name' />,
-        precio: '9,50 €',
+        precio: '11,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.tropical.desc' />,
         categoria: 'entradas'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.tartar.name' />,
-        precio: '16,00 €',
+        precio: '19,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.tartar.desc' />,
         categoria: 'entradas'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.startar.name' />,
-        precio: '22,00 €',
+        precio: '23,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.startar.desc' />,
         categoria: 'entradas'
     },
@@ -82,25 +82,25 @@ export const carta_data = [
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.marira.name' />,
-        precio: '7,00 €',
+        precio: '8,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.marira.desc' />,
         categoria: 'entradas'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.sopa.name' />,
-        precio: '7,00 €',
+        precio: '8,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.sopa.desc' />,
         categoria: 'entradas'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.berenjena.name' />,
-        precio: '8,00 €',
+        precio: '9,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.berenjena.desc' />,
         categoria: 'entradas'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.flan.name' />,
-        precio: '9,00 €',
+        precio: '11,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.flan.desc' />,
         categoria: 'entradas'
     },
@@ -112,13 +112,13 @@ export const carta_data = [
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.morcillab.name' />,
-        precio: '6,00 €',
+        precio: '8,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.morcillab.desc' />,
         categoria: 'entradas'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.gambas.name' />,
-        precio: '11,50 €',
+        precio: '12,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.gambas.desc' />,
         categoria: 'entradas'
     },
@@ -142,7 +142,7 @@ export const carta_data = [
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.secreto.name' />,
-        precio: '16,50 €',
+        precio: '19,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.secreto.desc' />,
         categoria: 'parrilla'
     },
@@ -154,7 +154,7 @@ export const carta_data = [
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.entrecot.name' />,
-        precio: '19,00 €',
+        precio: '21,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.entrecot.desc' />,
         categoria: 'parrilla'
     },
@@ -166,7 +166,7 @@ export const carta_data = [
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.solomillo.name' />,
-        precio: '27,00 €',
+        precio: '29,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.solomillo.desc' />,
         categoria: 'parrilla'
     },
@@ -178,19 +178,19 @@ export const carta_data = [
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.solcerdo.name' />,
-        precio: '14,00 €',
+        precio: '15,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.solcerdo.desc' />,
         categoria: 'parrilla'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.chuletas.name' />,
-        precio: '16,00 €',
+        precio: '17,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.chuletas.desc' />,
         categoria: 'parrilla'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.parrillax2.name' />,
-        precio: '29,50 €',
+        precio: '34,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.parrillax2.desc' />,
         categoria: 'parrilla'
     },
@@ -202,13 +202,13 @@ export const carta_data = [
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.hereford.name' />,
-        precio: '34,00 € (600 GR.) / 53,00 € (1000 GR.)',
+        precio: '36,00 € (600 GR.) / 56,00 € (1000 GR.)',
         descr: <FormattedMessage id='MenuPage.dishes.hereford.desc' />,
         categoria: 'parrilla'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.blackangus.name' />,
-        precio: '36,00 € (600 GR.) / 58,00 € (1000 GR.)',
+        precio: '38,00 € (600 GR.) / 58,00 € (1000 GR.)',
         descr: <FormattedMessage id='MenuPage.dishes.blackangus.desc' />,
         categoria: 'parrilla'
     },
@@ -226,7 +226,7 @@ export const carta_data = [
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.simmental.name' />,
-        precio: '36,00 € (600 GR.) / 58,00 € (1000 GR.)',
+        precio: '36,00 € (600 GR.) / 56,00 € (1000 GR.)',
         descr: <FormattedMessage id='MenuPage.dishes.simmental.desc' />,
         categoria: 'parrilla'
     },
@@ -244,7 +244,7 @@ export const carta_data = [
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.tomahawk.name' />,
-        precio: '46,00 € (1000 GR.)',
+        precio: '48,00 € (1000 GR.)',
         descr: <FormattedMessage id='MenuPage.dishes.tomahawk.desc' />,
         categoria: 'parrilla'
     },
@@ -310,91 +310,91 @@ export const carta_data = [
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.cousverdura.name' />,
-        precio: '14,00 €',
+        precio: '15,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.cousverdura.desc' />,
         categoria: 'cocina'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.couscarne.name' />,
-        precio: '16,00 €',
+        precio: '17,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.couscarne.desc' />,
         categoria: 'cocina'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.pollolimon.name' />,
-        precio: '15,00 €',
+        precio: '17,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.pollolimon.desc' />,
         categoria: 'cocina'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.tagine.name' />,
-        precio: '15,00 €',
+        precio: '18,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.tagine.desc' />,
         categoria: 'cocina'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.pastela.name' />,
-        precio: '15,00 €',
+        precio: '18,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.pastela.desc' />,
         categoria: 'cocina'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.lasagna.name' />,
-        precio: '13,00 €',
+        precio: '15,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.lasagna.desc' />,
         categoria: 'cocina'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.tortelloni.name' />,
-        precio: '13,00 €',
+        precio: '15,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.tortelloni.desc' />,
         categoria: 'cocina'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.pastanegra.name' />,
-        precio: '14,00 €',
+        precio: '16,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.pastanegra.desc' />,
         categoria: 'cocina'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.creps.name' />,
-        precio: '14,00 €',
+        precio: '16,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.creps.desc' />,
         categoria: 'cocina'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.timbal.name' />,
-        precio: '16,00 €',
+        precio: '18,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.timbal.desc' />,
         categoria: 'cocina'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.medallones.name' />,
-        precio: '16,00 €',
+        precio: '18,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.medallones.desc' />,
         categoria: 'cocina'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.taginepescado.name' />,
-        precio: '16,00 €',
+        precio: '18,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.taginepescado.desc' />,
         categoria: 'pescado'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.salmon.name' />,
-        precio: '18,00 €',
+        precio: '21,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.salmon.desc' />,
         categoria: 'pescado'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.lubina.name' />,
-        precio: '18,00 €',
+        precio: '21,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.lubina.desc' />,
         categoria: 'pescado'
     },
     {
         nombre: <FormattedMessage id='MenuPage.dishes.rodaballo.name' />,
-        precio: '21,00 €',
+        precio: '22,00 €',
         descr: <FormattedMessage id='MenuPage.dishes.rodaballo.desc' />,
         categoria: 'pescado'
     },
