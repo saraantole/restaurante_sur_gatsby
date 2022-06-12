@@ -17,8 +17,8 @@ const Footer = () => {
                 </a> <br />
                 <p>
                     © {new Date().getFullYear()}. All rights reserved. <br />
-                    <span style={{ fontSize: '10px' }}>Built with &#x2764; by {` `}
-                        <a href="https://saraantole.netlify.app/" target='_blank' rel="noreferrer" style={{ textDecoration: 'underline' }}>Sara Antole</a></span>
+                    {/*  <span style={{ fontSize: '10px' }}>Built with &#x2764; by {` `}
+                        <a href="https://saraantole.netlify.app/" target='_blank' rel="noreferrer" style={{ textDecoration: 'underline' }}>Sara Antole</a></span> */}
                 </p>
             </footer>
         </div>
