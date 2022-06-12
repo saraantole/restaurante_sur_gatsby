@@ -29,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-intl`,
       options: {
-        path: `${__dirname}/src/intl1`,
+        path: `${__dirname}/src/intl`,
         languages: [`en`, `es`],
         defaultLanguage: `es`,
         redirect: true,
@@ -68,48 +68,48 @@ module.exports = {
         icon: `src/images/favicon-16x16.png`,
         icons: [
           {
-              src: "src/images/android-chrome-192x192.png",
-              sizes: "192x192",
-              type: "image/png",
-              purpose: "any"
-          },
-          {
-              src: "src/images/logo-512x512.png",
-              sizes: "512x512",
+            src: "src/images/android-chrome-192x192.png",
+            sizes: "192x192",
             type: "image/png",
-              purpose: "any"
+            purpose: "any"
           },
           {
-              src: "src/images/apple-touch-icon.png",
-              sizes: "180x180",
-              type: "image/png",
-              purpose: "any"
+            src: "src/images/logo-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: "any"
           },
           {
-              src: "src/images/favicon-32x32.png",
-              sizes: "32x32",
-              type: "image/png",
-              purpose: "any"
+            src: "src/images/apple-touch-icon.png",
+            sizes: "180x180",
+            type: "image/png",
+            purpose: "any"
           },
           {
-              src: "src/images/safari-pinned-tab.svg",
-              sizes: "285x285",
-              type: "image/svg",
-              purpose: "any maskable"
+            src: "src/images/favicon-32x32.png",
+            sizes: "32x32",
+            type: "image/png",
+            purpose: "any"
           },
           {
-              src: "src/images/mstile-150x150.png",
-              sizes: "270x270",
-              type: "image/png",
-              purpose: "any"
+            src: "src/images/safari-pinned-tab.svg",
+            sizes: "285x285",
+            type: "image/svg",
+            purpose: "any maskable"
           },
           {
-              src: "src/images/favicon.ico",
-              sizes: "48x48",
-              type: "image/ico",
-              purpose: "any"
+            src: "src/images/mstile-150x150.png",
+            sizes: "270x270",
+            type: "image/png",
+            purpose: "any"
+          },
+          {
+            src: "src/images/favicon.ico",
+            sizes: "48x48",
+            type: "image/ico",
+            purpose: "any"
           }
-      ]
+        ]
       },
     },
     `gatsby-plugin-offline`

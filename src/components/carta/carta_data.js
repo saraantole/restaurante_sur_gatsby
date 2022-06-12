@@ -212,12 +212,12 @@ export const carta_data = [
         descr: <FormattedMessage id='MenuPage.dishes.blackangus.desc' />,
         categoria: 'parrilla'
     },
-    {
-        nombre: <FormattedMessage id='MenuPage.dishes.lomo.name' />,
-        precio: '34,00 € (600 GR.) / 53,00 € (1000 GR.)',
-        descr: <FormattedMessage id='MenuPage.dishes.lomo.desc' />,
-        categoria: 'parrilla'
-    },
+    /*     {
+            nombre: <FormattedMessage id='MenuPage.dishes.lomo.name' />,
+            precio: '34,00 € (600 GR.) / 53,00 € (1000 GR.)',
+            descr: <FormattedMessage id='MenuPage.dishes.lomo.desc' />,
+            categoria: 'parrilla'
+        }, */
     {
         nombre: <FormattedMessage id='MenuPage.dishes.retinto.name' />,
         precio: '34,00 € (600 GR.) / 53,00 € (1000 GR.)',
