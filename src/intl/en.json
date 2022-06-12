@@ -3,7 +3,7 @@
     "description": "Steak House in Estepona, Spain",
     "author": "Sara Antole",
     "tel": "+34 952 79 28 76",
-    "time": "Every day: 1 to 6 PM",
+    "time": "Every day: 7 PM to 1 AM",
     "location": "Plaza Ortiz, 10 Estepona (Malaga)",
     "nav": {
         "home": "Home",
@@ -367,8 +367,7 @@
     },
     "GalleryPage": {
         "gallery": "- Gallery -"
-    }
-    ,
+    },
     "ErrorPage": {
         "ErrorTitle": "Oooops",
         "pError": "It looks like you won't find anything to eat here!",
